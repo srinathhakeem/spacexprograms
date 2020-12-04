@@ -1,0 +1,33 @@
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  background-color: lightgray;
+  padding: 8px;
+}
+.filter-grid {
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+.view-grid {
+  background-color: white;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 90%;
+}
+.filter-label-button {
+  background-color: lightgreen;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 12px;
+  margin: 6px 0px;
+}
+.filter-label-button.selected {
+  background-color: green;
+}
+.filter-label {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: 12px;
+}
